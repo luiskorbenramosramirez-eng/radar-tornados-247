@@ -77,4 +77,4 @@ async def radar_satelital():
 mantener_despierto()
 
 # 🔑 RECUERDA PEGAR TU TOKEN SECRETO DEL BOT AQUÍ ABAJO (LÍNEA FINAL):
-bot.run("MTU2ODAzNDUwMjk4OTg0MDUwNA.GXz0ku.XmlzxFjGStVHX7znw_DQtNLybyJmZlBvu6WWnA")
+bot.run(os.environ.get('DISCORD_TOKEN'))
